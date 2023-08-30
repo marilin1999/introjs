@@ -20,7 +20,7 @@ let crearContacto = [
        { id: 4,
         Nombre: "andrea", 
         Apellido: "rodriguez",
-        Telefono: "376289", 
+        Telefono: "376288", 
         Ubicacion: {ciudad: "cartagena", direccion: 56},
        },
 ];
@@ -48,7 +48,7 @@ function agregarContacto(nuevoContacto){
    
    agregarContacto(nuevoContacto),
    imprimirContactos(),
-   borrarContacto(3),
+   borrarContacto(5),
   imprimirContactos()
 
       
